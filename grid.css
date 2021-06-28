@@ -41,7 +41,7 @@ margin-left: 0.5rem;;
 }
 .five-column-grid-squash {
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr 4fr 1fr;
+    grid-template-columns: 1fr 3fr 2fr 7fr 1fr;
     gap: 0.5rem;
     margin-top: 1rem;
     /* margin-left: 0.5rem; */
