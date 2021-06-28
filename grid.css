@@ -1,0 +1,21 @@
+.five-column-grid {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 0.5fr 2fr 5fr 3fr 0.5fr;
+    gap: 0.25rem;
+}
+.two-column-grid-expand-right {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.25rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.three-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+gap: 0.25rem;
+margin-top: 1rem;
+margin-left: 0.5rem;;
+}

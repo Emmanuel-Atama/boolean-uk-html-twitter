@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    font-family: calibri;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .left-column {
+      border: 0.0625rem solid pink;
+  }
+  .left-menu {
+    border: 0.0625rem solid red;
+  }
+  .center-main {
+    border: 0.0625rem solid blue;
+  }
+  .right-side {
+        border: 0.0625rem solid rgb(255, 0, 255);
+  }
+  .right-column {
+    border: 0.0625rem solid rgb(90, 60, 110);  
+  }
+  .twitter-icon {
+      width: 2.5rem;
+      height: 2.5rem;
+      border: 0.125rem dotted green;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+  }
+  .two-column-icon {
+    width: 2rem;  
+    /* change the width:2.5rem back to auto */
+    height: 2.5rem;
+    border: 0.125rem dotted green;
+}
+.two-column-container {
+    width: auto;
+    height: 2.5rem;
+    border: 0.125rem dotted rgb(26, 125, 155);
+    border-radius: 1rem;
+}
+.left-menu-botton button {
+    background-color: skyblue;
+    width: 10rem;
+    color: white;
+    border: 0.0625rem solid skyblue;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    
+}
+.profile-pic {
+    width: 2.5rem;
+      height: 2.5rem;
+      border: 0.125rem dotted green;
+}
+.text-section-1 {
+    border: 0.125rem dotted green;
+    height: 2.5rem;
+    border-radius: 1rem;
+}
+.menu-icon {
+    width: 2.5rem;
+      height: 2.5rem;
+      border: 0.125rem dotted green;
+}
