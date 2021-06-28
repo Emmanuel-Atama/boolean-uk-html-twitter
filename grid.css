@@ -19,3 +19,57 @@ gap: 0.25rem;
 margin-top: 1rem;
 margin-left: 0.5rem;;
 }
+.two-column-grid-expand-left {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.25rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.five-column-grid-equal {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.three-column-grid-exand__center {
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+    gap: 0.25rem;
+}
+.five-column-grid-squash {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 4fr 1fr;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    /* margin-left: 0.5rem; */
+}
+.five-column-grid-equal-no-margin {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.four-column-grid-squash {
+    display: grid;
+    grid-template-columns: 2fr 2fr 5fr 1fr;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    /* margin-left: 0.5rem; */
+}
+.four-column-grid-second-expand {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 2fr;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.four-column-grid-second-expand-2 {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}

@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    background-color: rgb(253, 250, 250);
   }
   body {
     margin: 0;
@@ -9,13 +10,13 @@ html {
     box-sizing: border-box;
   }
   
-  ul {
+  ul  {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
   .left-column {
-      border: 0.0625rem solid pink;
+      border: 0.0625rem solid white;
   }
   .left-menu {
     border: 0.0625rem solid red;
@@ -27,7 +28,10 @@ html {
         border: 0.0625rem solid rgb(255, 0, 255);
   }
   .right-column {
-    border: 0.0625rem solid rgb(90, 60, 110);  
+    border: 0.0625rem solid white;  
+  }
+  .faded-white {
+      color: rgb(128, 123, 123);
   }
   .twitter-icon {
       width: 2.5rem;
@@ -35,6 +39,7 @@ html {
       border: 0.125rem dotted green;
       margin-left: 0.5rem;
       margin-right: 0.5rem;
+      margin-top: 1rem;
   }
   .two-column-icon {
     width: 2rem;  
@@ -49,7 +54,7 @@ html {
     border-radius: 1rem;
 }
 .left-menu-botton button {
-    background-color: skyblue;
+    background-color: rgb(27, 157, 209);
     width: 10rem;
     color: white;
     border: 0.0625rem solid skyblue;
@@ -64,14 +69,115 @@ html {
     width: 2.5rem;
       height: 2.5rem;
       border: 0.125rem dotted green;
+      border-radius: 50%;
 }
 .text-section-1 {
     border: 0.125rem dotted green;
     height: 2.5rem;
     border-radius: 1rem;
 }
-.menu-icon {
+.home {
+    height: 2.5rem;
+    width: auto;
+    border: 0.125rem dotted green;
+    border-radius: 1rem;
+}
+.icons {
     width: 2.5rem;
       height: 2.5rem;
       border: 0.125rem dotted green;
+}
+.first-form-main label, input {
+    border: 0.625rem solid white;
+    font-size: 1.5rem;
+    width: auto;
+}
+.main-tweet button {
+    background-color: skyblue;
+    width: 5rem;
+    color: white;
+    border: 0.0625rem solid skyblue;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.text-section-2 {
+    width: auto;
+    height: 2.5rem;
+    border: 0.125rem dotted green;
+}
+.text-section-3 {
+    width: auto;
+    height: 2.5rem;
+    color: rgb(88, 86, 86);
+    border: 0.125rem dotted green;
+}
+.two-column-container-auto-height {
+    width: auto;
+    height: auto;
+    border: 0.125rem dotted rgb(26, 125, 155);
+    border-radius: 1rem;
+    border: 0.125rem dotted green;
+    padding-bottom: 1rem;
+}
+.two-column-icon-lg {
+    width: 5rem;  
+    /* change the width:2.5rem back to auto */
+    height: 5rem;
+    border-radius: 20%;
+    border: 0.125rem dotted green;
+}
+.two-column-container-lg {
+    width: auto;
+    height: 5rem;
+    border: 0.125rem dotted rgb(26, 125, 155);
+    border-radius: 1rem;
+}
+.container-lg {
+    width: auto;
+    /* change height to auto */
+    height: 5rem;
+    border: 0.125rem dotted rgb(26, 125, 155);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.two-column-container-sm {
+    width: auto;
+    height: 1rem;
+    border: 0.125rem dotted rgb(26, 125, 155);
+    border-radius: 1rem;
+}
+.container-sm {
+    width: auto;
+    height: 1rem;
+    /* change height to auto */
+    border: 0.125rem dotted rgb(26, 125, 155);
+    border-radius: 1rem;
+    margin: 1rem 0.5rem 0 0.5rem;
+}
+.two-column-icon-sm {
+    width: 1rem;  
+    /* change the width:2.5rem back to auto */
+    height: 1rem;
+    border-radius: 20%;
+    border: 0.125rem dotted green;
+}
+div a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+.right-side-footer-section {
+    background-color: rgb(252, 249, 249);
+    height: auto;
+border: 0.0625rem solid rgb(248, 244, 244);
+border-radius: 1rem;
+margin: 0 0.5rem 0 0.5rem;
+position: static;
+bottom: 0;
+right: 0;
 }
