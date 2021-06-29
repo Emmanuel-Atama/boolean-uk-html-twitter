@@ -33,25 +33,32 @@ html {
   .faded-white {
       color: rgb(128, 123, 123);
   }
-  .twitter-icon {
-      width: 2.5rem;
-      height: 2.5rem;
-      border: 0.125rem dotted green;
+  .twitter-icon img {
+      width: 2rem;
+      height: 2rem;
       margin-left: 0.5rem;
-      margin-right: 0.5rem;
-      margin-top: 1rem;
   }
-  .two-column-icon {
-    width: 2rem;  
+  .two-column-icon img {
+    width: auto;  
     /* change the width:2.5rem back to auto */
-    height: 2.5rem;
+    height: 1.5rem; 
+}
+.two-column-icon {
+    width: auto; 
+    /* change the width:2.5rem back to auto */
+    height: auto;
     border: 0.125rem dotted green;
 }
 .two-column-container {
     width: auto;
-    height: 2.5rem;
+    height: auto;
     border: 0.125rem dotted rgb(26, 125, 155);
     border-radius: 1rem;
+    text-align: left;
+}
+.two-column-container a {
+  text-decoration: none;
+  color: black;
 }
 .left-menu-botton button {
     background-color: rgb(27, 157, 209);
@@ -65,15 +72,33 @@ html {
     margin-left: 0.5rem;
     
 }
+.left-menu-botton a {
+color: white;
+}
 .profile-pic {
-    width: 2.5rem;
-      height: 2.5rem;
+    width: 3rem;
+      height: 3rem;
+      border: 0.125rem dotted green;
+      border-radius: 50%;
+}
+.profile-pic img {
+    width: 3rem;
+      height: 3rem;
       border: 0.125rem dotted green;
       border-radius: 50%;
 }
 .text-section-1 {
     border: 0.125rem dotted green;
-    height: 2.5rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+.more-icon {
+    width: auto;
+    height: 3rem;
+}
+.more-icon img {
+    width: auto;
+    height: 1.5rem;
     border-radius: 1rem;
 }
 .home {
@@ -87,7 +112,7 @@ html {
       height: 2.5rem;
       border: 0.125rem dotted green;
 }
-.first-form-main label, input {
+.first-form-main textarea {
     border: 0.625rem solid white;
     font-size: 1.5rem;
     width: auto;
