@@ -14,7 +14,7 @@
 }
 .three-column-grid {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: auto 1fr auto;
 gap: 0.25rem;
 margin-top: 1rem;
 margin-left: 0.5rem;;
@@ -39,10 +39,17 @@ margin-left: 0.5rem;;
     grid-template-columns: 3fr 3fr 1fr;
     gap: 0.25rem;
 }
-.five-column-grid-squash {
+.three-column-grid-squash {
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr 7fr 1fr;
-    gap: 0.5rem;
+    grid-template-columns: 4fr 7fr 1fr;
+  
+    margin-top: 1rem;
+    /* margin-left: 0.5rem; */
+}
+.four-column-grid-squash {
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 7fr 1fr;
+  
     margin-top: 1rem;
     /* margin-left: 0.5rem; */
 }
@@ -51,13 +58,6 @@ margin-left: 0.5rem;;
     grid-template-columns: repeat(5, 1fr);
     gap: 0.5rem;
     margin-top: 1rem;
-}
-.four-column-grid-squash {
-    display: grid;
-    grid-template-columns: 2fr 2fr 5fr 1fr;
-    gap: 0.5rem;
-    margin-top: 1rem;
-    /* margin-left: 0.5rem; */
 }
 .four-column-grid-second-expand {
     display: grid;
