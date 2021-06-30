@@ -1,0 +1,46 @@
+.left-menu li:hover {
+    background-color: rgb(143, 197, 233);
+    border-radius: 1rem;
+    padding: 0.25rem;
+}
+.profile:hover {
+    background-color: rgb(143, 197, 233);
+    border-radius: 2rem;
+}
+.left-menu-botton button:hover {
+    background-color: rgb(16, 129, 173);
+    width: 12rem;
+    color: white;
+    border: 0.0625rem solid skyblue;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.twitter-icon:hover {
+    border-radius: 50%;
+    background-color: rgb(143, 197, 233);
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    padding: 0.25rem;
+}
+.icons-sm-1 img:hover {
+    width: 2rem;
+      height: 2rem;
+      background-color: rgb(143, 197, 233);
+}
+.icons-sm img:hover {
+    width: 2.5rem;
+      height: 2.5rem;
+      background-color: rgb(143, 197, 233);
+}
+.icons-menu img:hover {
+    width: 2rem;
+      height: 1.5 rem;
+      background-color: rgb(143, 197, 233)
+}
+img:hover {
+    background-color: rgb(185, 221, 245);
+}

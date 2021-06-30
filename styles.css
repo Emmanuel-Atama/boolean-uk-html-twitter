@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    background-color: rgb(253, 250, 250);
+    background-color: rgb(250, 248, 248);
   }
   body {
     margin: 0;
@@ -19,9 +19,16 @@ html {
       margin: 0;
       padding: 0;
   }
+  .right-side {
+      margin-top: 1rem;
+      margin-left: 1rem;
+  }
+.left-menu {
+    margin-top: 1rem;
+}
   .twitter-color {
       color: rgb(27, 157, 209);
-      font-size: 1.5rem;
+      font-size: 1rem;
   }
   .faded-white {
       color: rgb(128, 123, 123);
@@ -54,7 +61,7 @@ html {
     width: 10rem;
     color: white;
     border: 0.0625rem solid skyblue;
-    border-radius: 1rem;
+    border-radius: 2rem;
     padding: 0.5rem;
     font-size: 1rem;
     margin-top: 1rem;
@@ -80,11 +87,11 @@ color: white;
 }
 .more-icon {
     width: auto;
-    height: 3rem;
+    height: 1rem;
 }
 .more-icon img {
     width: auto;
-    height: 1.5rem;
+    height: 1rem;
     border-radius: 1rem;
 }
 .home {
@@ -207,7 +214,10 @@ div a {
     text-decoration: none;
     margin: 0.5rem;
 }
-.second-form label, input {
+.second-form {
+    margin-left: 0.4rem;
+}
+label, input {
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -216,9 +226,10 @@ div a {
     width: auto;
     font-family: calibri;
 }
+
 .right-side-footer-section {
-    background-color: rgb(252, 249, 249);
-    height: auto;
+background-color: rgb(252, 249, 249);
+height: auto;
 border: 0.0625rem solid rgb(248, 244, 244);
 border-radius: 1rem;
 margin: 0 0.5rem 0 0.5rem;
@@ -231,4 +242,30 @@ right: 0;
     height: auto;
     border-radius: 1rem;
     text-align: left;
+}
+.gray-border {
+    border: 0.0625rem solid rgb(224, 223, 223);
+    padding: 0.25rem;;
+}
+.gray-border-search {
+    border: 0.0625rem solid rgb(224, 223, 223);
+    border-radius: 1rem;
+    padding: 0.25rem;
+    background-color: rgb(253, 251, 251);
+    margin-bottom: 1rem;
+}
+.gray-border__border-radius {
+    border: 0.0625rem solid rgb(224, 223, 223);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 0.25rem;
+    margin: 0;
+}
+.gray-border-footer {
+    height: 3rem;
+    width: auto;
+    border: 0.0625rem solid rgb(224, 223, 223);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 0.25rem;
 }

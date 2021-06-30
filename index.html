@@ -7,24 +7,29 @@
     <title>Twitter Exercise</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="hover.css">
 </head>
 <body class="five-column-grid">
 <div class="left-column"></div>
-<aside class="left-menu">
-    <nav>
-        <div class="twitter-icon"> <img src="https://pics.freeicons.io/uploads/icons/png/16438666591561032650-512.png" alt="Twitter"> </div>
-        <ul class="left-menu-icons">
-            <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/img/home (1).png" alt="Home-Icon"></a></div><div class="two-column-container"><p class="twitter-color" >Home</p></div></li>
-            <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/ash.png" alt="Explore"></a></div><div class="two-column-container"><a href="#">Explore</a></div></li>
-            <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/alarm.png" alt="Notification"></a></div><div class="two-column-container"><a href="#">Notifications</a></div></li>
-            <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/envelope.png" alt="Message"></a></div><div class="two-column-container"><a href="#">Messages</a></div></li>
-            <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/bookmark-white.png" alt="Bookmark"></a></div><div class="two-column-container"><a href="#">Bookmark</a></div></li>
-            <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/list.png" alt="List"></a></div><div class="two-column-container"><a href="#">List</a></div></li>
-            <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/user.png" alt="Profile"></a></div><div class="two-column-container"><a href="#">Profile</a></div></li>
-            <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/more.png" alt="More"></a></div><div class="two-column-container"><a href="#">More</a></div></li>
-        </ul>
-        <div class="left-menu-botton"><button> <a href="#">Tweet</a> </button></div>
-    </nav>
+<aside class="left-menu three-row-grid">
+    <div>
+        <nav>
+            <div class="twitter-icon"> <img src="https://pics.freeicons.io/uploads/icons/png/16438666591561032650-512.png" alt="Twitter"> </div>
+            <ul class="left-menu-icons">
+                <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/img/home (1).png" alt="Home-Icon"></a></div><div class="two-column-container"><p class="twitter-color" >Home</p></div></li>
+                <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/ash.png" alt="Explore"></a></div><div class="two-column-container"><a href="#">Explore</a></div></li>
+                <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/alarm.png" alt="Notification"></a></div><div class="two-column-container"><a href="#">Notifications</a></div></li>
+                <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/envelope.png" alt="Message"></a></div><div class="two-column-container"><a href="#">Messages</a></div></li>
+                <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/bookmark-white.png" alt="Bookmark"></a></div><div class="two-column-container"><a href="#">Bookmark</a></div></li>
+                <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/list.png" alt="List"></a></div><div class="two-column-container"><a href="#">List</a></div></li>
+                <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/user.png" alt="Profile"></a></div><div class="two-column-container"><a href="#">Profile</a></div></li>
+                <li class="two-column-grid-expand-right"><div class="two-column-icon"><a href="#"><img src="./assets/more.png" alt="More"></a></div><div class="two-column-container"><a href="#">More</a></div></li>
+            </ul>
+            <div class="left-menu-botton"><button> <a href="#">Tweet</a> </button></div>
+        </nav>
+    </div>
+    <div class="space-row"></div>
+   <div class="profile">
     <nav>
         <ul class="three-column-grid">
         <li class="profile-pic"><img src="./assets/Profile-pic.jpg" alt="Profile pix"></li>
@@ -32,6 +37,7 @@
         <li class="more-icon"><a href="#"><img src="./assets/menu.png" alt="more"></a></li>
         </ul>
     </nav>
+   </div>
 </aside>
 <main class="center-main">
     <!-- first main div  -->
@@ -41,7 +47,7 @@
             <li class="icons"><img src="./assets/img/shining.png" alt=""> </li>
         </ul>
     </div>
-    <div>
+    <div class="gray-border">
         <ul class="two-column-grid-expand-right">
             <li class="profile-pic"> <img src="./assets/Profile-pic.jpg" alt="Profile Pix"></li>
             <li class="first-form-main">
@@ -62,18 +68,8 @@
             </li>
         </ul>
     </div>
-        <!-- <div class="three-column-grid-exand__center">
-        <ul class="five-column-grid-equal">
-            <li class="icons"><img src="./assets/img/images square.png" alt="Image"></li>
-            <li class="icons"><img src="./assets/img/gif.png" alt="Gif"></li>
-            <li class="icons"><img src="./assets/img/poll.png" alt="Poll"></li>
-            <li class="icons"><img src="./assets/img/smile.png" alt="Emoji"></li>
-            <li class="icons"><img src="./assets/img/schedule.png" alt="Schedule"></li>
-        </ul>
-        <div></div>
-        <div class="main-tweet"><button>Tweet</button></div>
-    </div> -->
     <!-- second main div -->
+    <div class="gray-border">
         <section class="two-column-grid-expand-right margin-left">
         <div class="two-column-icon"><img src="./assets/retweet.png" alt="retweet"></div><div class="two-column-container faded-white"><p>Eric Elliot Retweeted</p></div></section>
 <section class="two-column-grid-expand-right">
@@ -90,13 +86,14 @@
             <ul class="five-column-grid-equal-no-margin">
                 <li class="icons-sm-1"><img src="./assets/chat.png" alt="chat"></li>
                 <li class="icons-sm-1"><img src="./assets/retweet.png" alt="retweet"></li>
-                <li class="icons-sm-1"><img src="./assets/list.png" alt="like"></li>
+                <li class="icons-sm-1"><img src="./assets/like.png" alt="like"></li>
                 <li class="icons-sm-1"><img src="./assets/upload.png" alt="upload"></li>
                 <li class="icons-sm-1"><img src="./assets/Tip.png" alt="Tip"></li>
             </ul>
         </div>
-    </div></section>
-    <section class="two-column-grid-expand-right">
+    </div></section></div>
+
+    <div class="gray-border"><div class="two-column-grid-expand-right">
         <div class="profile-pic"><img src="./assets/img/multiple-users-silhouette.png" alt=""></div><div class="two-column-container-auto-height">
             <div>
                 <ul class="three-column-grid-squash">
@@ -108,13 +105,14 @@
             <ul class="five-column-grid-equal-no-margin">
                 <li class="icons-sm-1"><img src="./assets/chat.png" alt="chat"></li>
                 <li class="icons-sm-1"><img src="./assets/retweet.png" alt="retweet"></li>
-                <li class="icons-sm-1"><img src="./assets/list.png" alt="like"></li>
+                <li class="icons-sm-1"><img src="./assets/like.png" alt="like"></li>
                 <li class="icons-sm-1"><img src="./assets/upload.png" alt="upload"></li>
                 <li class="icons-sm-1"><img src="./assets/Tip.png" alt="Tip"></li>
             </ul>
             </div>
-        </div></section>
-        <section class="two-column-grid-expand-right">
+        </div></div></div>
+        <div class="gray-border">
+            <div class="two-column-grid-expand-right">
             <div class="profile-pic"><img src="./assets/img/man.png" alt=""></div><div class="two-column-container-auto-height">
                 <div>
                     <ul class="three-column-grid-squash">
@@ -126,15 +124,15 @@
                 <ul class="five-column-grid-equal-no-margin">
                     <li class="icons-sm-1"><img src="./assets/chat.png" alt="chat"></li>
                     <li class="icons-sm-1"><img src="./assets/retweet.png" alt="retweet"></li>
-                    <li class="icons-sm-1"><img src="./assets/list.png" alt="like"></li>
+                    <li class="icons-sm-1"><img src="./assets/like.png" alt="like"></li>
                     <li class="icons-sm-1"><img src="./assets/upload.png" alt="upload"></li>
                     <li class="icons-sm-1"><img src="./assets/Tip.png" alt="Tip"></li>
                 </ul>
                 </div>
-            </div></section>
+            </div></div></div>
 </main>
 <aside class="right-side">
-    <div>
+    <div class="gray-border-search">
         <form class="second-form">
            <label for="search twitter"></label>
            <input type="search" name="search" placeholder="Search Twitter">
@@ -143,51 +141,62 @@
 </form>
 </div>
 <section class="right-side-content">
-    <h2>What's happening</h2> <hr>
+    <h2 class="gray-border__border-radius">What's happening</h2>
+    <div class="gray-border">
     <div class="two-column-grid-expand-left"><div class="two-column-container-lg"><p class="faded-white">News.LIVE</p> <p><strong>Bus hijacked by protesters and set alight on sixth night of unrest in Northern Ireland.</strong></p>
-        <p class="faded-whited">Trending with <span class="twitter-color">Belfast, Northern Ireland</span></p>
+        <p class="faded-whited">Trending with <span class="twitter-color ">Belfast, Northern Ireland</span></p>
     </div><div class="two-column-icon-lg"> <img src="./assets/img/car bomb.jpg" alt=""></div>
-    </div> <hr class="faded-white">
+    </div> </div>
 </section>
+<div class="gray-border">
 <div class="container-lg">
   <p><strong> #MeetTheRichardsons</strong></p>
-  <p class="faded-white">Brand new comedy from Dave's favourite couple returns at 10pm</p>
+  <p class="faded-white">Brand new comedy from Dave's favourite couple returns at 10pm</p></div>
+  <div></div>
   <div class="two-column-grid-expand-right"><div class="two-column-icon-sm"><img src="./assets/img/top-right-corner.png" alt="Top right"></div><div class="two-column-container-sm"><p class="faded-white">Promoted by Dave</p></div>
     </div></div>
-<div>
+<div class="gray-border">
     <div class="two-column-grid-expand-left"><div class="two-column-container__for-icons-sm"><p class="faded-white">Politics.Trending</p>
         <p><strong>Alex Jones</strong></p>
     <p class="faded-white">46.5k Tweets</p></div><div class="icons-sm"><img src="./assets/menu.png" alt="Menu"></div>
 </div></div>
-<div>
+<div class="gray-border">
     <div class="two-column-grid-expand-left"><div class="two-column-container__for-icons-sm"><p class="faded-white">Politics.Trending</p>
         <p><strong>Hong Kong</strong></p>
     <p class="faded-white">36k Tweets</p></div><div class="icons-sm"><img src="./assets/menu.png" alt="Menu"></div>
 </div></div>
-<section>
+<div class="gray-border">
     <div class="two-column-grid-expand-left"><div class="two-column-container-lg">
         <div>
             <ul class="four-column-grid-second-expand">
                 <li class="icons-sm-1"><img src="./assets/img/search sm.png" alt="search"></li>
                 <li><strong>Bloomberg Quick...</strong></li>
                 <li class="icons-sm-1"><img  src="./assets/correct.png" alt="search"></li>
-                <li class="faded-white">.Last night</li>
+                <li class="faded-white">.1 hr</li>
             </ul>
         </div>
         <p><strong>New Zealand is virtually covid-free. Just don't try to buy a home here</strong></p>
     </div><div class="two-column-icon-lg"><img src="./assets/img/buying home.png" alt="buying a Home"></div>
     </div>
-    <div><a href="#">Show more</a></div>
-</section>
-<footer class="right-side-footer-section">
-    <ul class="four-column-grid-second-expand-2">
-        <li><h3>Messages</h3></li>
-        <li class="space"></li>
-        <li class="icons"></li>
-        <li class="icons"></li>
-    </ul>
-</footer>
+</div>
+<div class="gray-border">
+    <div class="container-lg">
+      <p><strong> #MeetTheKardashans</strong></p>
+      <p class="faded-white">Brand new series of keeping up with the kardashans returns at 19:00hrs</p></div>
+      <div></div>
+      <div class="two-column-grid-expand-right"><div class="two-column-icon-sm"><img src="./assets/img/top-right-corner.png" alt="Top right"></div><div class="two-column-container-sm"><p class="faded-white">Promoted by E!</p></div>
+        </div></div>
+<!-- <div class="gray-border-footer">
+    <footer class="right-side-footer-section ">
+        <ul class="four-column-grid-second-expand-2">
+            <li>Messages</li>
+            <li class="space"></li>
+            <li class="icons-sm"></li>
+            <li class="icons-sm"></li>
+        </ul>
+    </footer>
+</div> -->
 </aside>
-<div class="right-column"></div>
+
 </body>
 </html>
